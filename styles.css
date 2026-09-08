@@ -46,3 +46,10 @@
     background-position: 80% center;
   }
 }
+
+
+/* Portfolio disclosure and 404 */
+.portfolio-note{grid-column:1/-1;color:#75aab0!important;font-size:9px!important;letter-spacing:.08em;text-align:left!important}
+.not-found{min-height:100vh;display:grid;place-items:center;padding:130px 28px 80px;text-align:center}
+.not-found>div{max-width:720px}.not-found small{color:var(--teal);font:700 10px "Roboto Condensed";letter-spacing:.25em}.not-found strong{display:block;color:rgba(8,123,136,.12);font:700 clamp(120px,25vw,280px)/.9 "Roboto Condensed"}.not-found h1{margin:20px 0;font-size:clamp(28px,4vw,48px);line-height:1.5}.not-found p{color:var(--gray);font-size:12px}.not-found a{display:flex;justify-content:space-between;width:250px;margin:35px auto 0;padding:17px 22px;color:#fff;background:var(--navy);font-size:11px;font-weight:700}
+@media(max-width:850px){.not-found{padding-top:100px}.portfolio-note{margin-top:12px}}
